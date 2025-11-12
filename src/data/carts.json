@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2,
+    "title": "Microscopio binocular",
+    "price": 250000,
+    "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
+    "stock": 5,
+    "category": "instrumental"
+  },
+  {
+    "id": 2,
+    "title": "Microscopio binocular",
+    "price": 250000,
+    "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
+    "stock": 5,
+    "category": "instrumental"
+  },
+  {
+    "id": 2,
+    "title": "Microscopio binocular",
+    "price": 250000,
+    "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
+    "stock": 5,
+    "category": "instrumental"
+  },
+  {
+    "id": 1,
+    "title": "Microscopio binocular",
+    "price": 250000,
+    "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
+    "stock": 5,
+    "category": "instrumental"
+  },
+  {
+    "id": 1,
+    "title": "Microscopio binocular",
+    "price": 250000,
+    "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
+    "stock": 5,
+    "category": "instrumental"
+  }
+]

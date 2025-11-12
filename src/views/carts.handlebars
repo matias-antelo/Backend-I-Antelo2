@@ -1,0 +1,22 @@
+<main>
+  {{#each carts}}
+  <div class="grilla">
+    <div class="grilla-izquierda">
+      <img src="/foto/producto.png" alt="Imagen producto" class="imagen-producto">
+    </div>
+
+    <div class="separador"></div>
+
+    <div class="contenido">
+      <p><strong>Nombre:</strong> {{this.title}}</p>
+      <p><strong>Precio:</strong> ${{this.price}}</p>
+      <p><strong>Descripción:</strong> {{this.description}}</p>
+      <p><strong>Stock:</strong> {{this.stock}}</p>
+      <p><strong>Categoría:</strong> {{this.category}}</p>
+      <button class="btn-eliminar" data-id="{{this.id}}">Eliminar del carrito</button>
+    </div>
+  </div>
+  {{/each}}
+</main>
+
+<script src="/home.button.js"></script>

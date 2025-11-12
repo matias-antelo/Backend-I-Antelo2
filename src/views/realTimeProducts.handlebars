@@ -1,0 +1,45 @@
+<main>
+
+  <h2 align="center">Agregar producto</h2>
+  <form id="form-producto">
+    <label for="title">Título:</label>
+    <input type="text" id="title" name="title" required>
+
+    <label for="price">Precio:</label>
+    <input type="number" id="price" name="price" required>
+
+    <label for="description">Descripción:</label>
+    <input type="text" id="description" name="description" required>
+
+    <label for="stock">Stock:</label>
+    <input type="number" id="stock" name="stock" required>
+
+    <label for="category">Categoría:</label>
+    <input type="text" id="category" name="category" required>
+
+    <button type="submit">Guardar producto</button>
+  </form>
+
+{{#each products}}
+  <div class="grilla">
+    <div class="grilla-izquierda">
+      <img src="/foto/producto.png" alt="Imagen producto" class="imagen-producto">
+    </div>
+
+    <div class="separador"></div>
+
+    <div class="contenido">
+      <p><strong>Nombre:</strong> {{this.title}}</p>
+      <p><strong>Precio:</strong> ${{this.price}}</p>
+      <p><strong>Descripción:</strong> {{this.description}}</p>
+      <p><strong>Stock:</strong> {{this.stock}}</p>
+      <p><strong>Categoría:</strong> {{this.category}}</p>
+      <button class="btn-eliminar" data-id="{{this.id}}">Eliminar Producto</button>
+    </div>
+  </div>
+  {{/each}}
+
+</main>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/realTimeProductos.js"></script>

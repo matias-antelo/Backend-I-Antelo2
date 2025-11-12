@@ -1,0 +1,185 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f8f4;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #f6f8f4;
+}
+
+.titulo {
+    flex: 1;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 20px;
+}
+
+.navbar {
+    background-color: #99968f;
+    width: 100%;
+
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+
+    margin: 0;
+    padding: 10px 0;
+}
+
+.navbar li {
+    margin: 0 35px;
+}
+
+.navbar li a:hover {
+    background-color: #636160;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.grilla {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.grilla-izquierda {
+  flex: 0 0 150px;
+  text-align: center;
+}
+
+.imagen-producto {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.separador {
+  width: 2px;
+  background-color: #000000;
+  height: 100%;
+  margin: 0 20px;
+}
+
+.contenido {
+  flex: 1;
+}
+
+.contenido p {
+  margin: 6px 0;
+  font-size: 0.5em;
+  color: #000000;
+}
+
+.linea-footer-superior {
+    height: 16px;
+    background-color: #dedfdc;
+    border: none;
+    margin-top: 00px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #99968f;
+    text-align: center;
+}
+
+.linea-footer-inferior {
+    height: 40px;
+    background-color: #636160;
+    border: none;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+/* Estilos para #form-producto (formulario en realTimeProducts) */
+#form-producto {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem 2rem;
+}
+
+#form-producto label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+    color: #444;
+}
+
+#form-producto input[type="text"],
+#form-producto input[type="number"],
+#form-producto input[type="date"],
+#form-producto input[type="file"],
+#form-producto select {
+    width: 100%;
+    padding: 0.45rem 0.6rem;
+    border: 1.8px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #212529;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+
+#form-producto input[type="text"]:focus,
+#form-producto input[type="number"]:focus,
+#form-producto input[type="date"]:focus,
+#form-producto input[type="file"]:focus,
+#form-producto select:focus {
+    border-color: #0d6efd;
+    outline: none;
+    box-shadow: 0 0 6px rgba(13, 110, 253, 0.4);
+}
+
+#form-producto button[type="submit"] {
+    grid-column: 1 / -1;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #99968f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#form-producto button[type="submit"]:hover {
+    background-color: #636160;
+}
