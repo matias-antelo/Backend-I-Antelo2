@@ -1,34 +1,50 @@
 [
-    {
-        "id": 1,
-        "title": "Microscopio binocular",
-        "price": 250000,
-        "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
-        "stock": 5,
-        "category": "instrumental"
-    },
-    {
-        "id": 2,
-        "title": "Microscopio binocular",
-        "price": 250000,
-        "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
-        "stock": 5,
-        "category": "instrumental"
-    },
-    {
-        "id": 3,
-        "title": "Microscopio binocular",
-        "price": 250000,
-        "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
-        "stock": 5,
-        "category": "instrumental"
-    },
-    {
-        "id": 4,
-        "title": "Microscopio binocular",
-        "price": 250000,
-        "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
-        "stock": 5,
-        "category": "instrumental"
-    }
+  {
+    "id": 1,
+    "title": "Microscopio binocular",
+    "price": 250000,
+    "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
+    "stock": 5,
+    "category": "instrumental"
+  },
+  {
+    "id": 2,
+    "title": "Microscopio binocular",
+    "price": 250000,
+    "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
+    "stock": 5,
+    "category": "instrumental"
+  },
+  {
+    "id": 3,
+    "title": "Microscopio binocular",
+    "price": 250000,
+    "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
+    "stock": 5,
+    "category": "instrumental"
+  },
+  {
+    "id": 4,
+    "title": "Microscopio binocular",
+    "price": 250000,
+    "description": "Microscopio óptico con aumento de hasta 1000x, ideal para laboratorio.",
+    "stock": 5,
+    "category": "instrumental"
+  },
+  {
+    "id": 5,
+    "title": "4545",
+    "price": 45454,
+    "description": "454545",
+    "stock": 454545,
+    "category": "454545"
+  },
+  {
+    "id": 6,
+    "title": "121212",
+    "price": 12121,
+    "description": "212121",
+    "stock": 12121,
+    "category": "21211212"
+  }
 ]
