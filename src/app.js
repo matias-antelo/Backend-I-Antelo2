@@ -5,9 +5,19 @@ import Handlebars from 'express-handlebars';
 import cartsRoute from './routes/carts.routes.js';
 import { Server } from 'socket.io';
 import { readFile, writeFile, productsFile } from './utils/utils.js';
+import mongoose from 'mongoose';
 
 const app = express()
 app.use(express.json());
+
+//conexion con mongoose
+mongoose.connect("mongodb+srv://anteloma87:Anteloma23%23@carrito-compras-cluster.6u5aaig.mongodb.net/?appName=Carrito-compras-cluster")
+.then(() => {
+  console.log("Conectado a la base de datos MongoDB")
+})
+.catch(error => {
+  console.error("Error al conectar a la base de datos MongoDB:", error)
+});
 
 //conexion con handlebars
 app.engine('handlebars', Handlebars.engine());
